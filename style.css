@@ -1,0 +1,121 @@
+body {
+    background-color: #fff;
+    color: #222;
+    font-family: arial,sans-serif;
+    font-size: small;
+}
+
+nav {
+    background-color: #fff;
+    color: #888;
+    margin: 0px 22px 8px 22px;
+    overflow: hidden;
+    text-align: center;
+    float: right;
+    display: inline;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	line-height: 50px;
+}
+
+.logo {
+	padding-top: 190px;
+	/*padding-left: 40%;*/
+	/*padding-right: auto;*/
+}
+
+input[type=text] {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 0 0 4px;
+    display: block;
+    width: 570px;
+    height: 31px;
+    border 1px solid #dcdcdc;
+}
+
+.button {
+	background: #f2f2f2;
+	border: none;
+	line-height: 40px;
+}
+
+.footer {
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    bottom: 0;
+    height: 35px;
+    position: absolute;
+    width: 100%;
+}
+
+.alignright {
+    float: right;
+}
+
+.alignleft {
+	float: left;
+}
+
+.footer .alignright ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0 20px 0 0;
+}
+
+.footer .alignleft ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+
+.footer .alignright ul li {
+	display: inline-block;
+}
+
+.footer .alignleft ul li {
+	display: inline-block;
+}
+
+a {
+    padding: 8px;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    color: #666;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.myButton {
+	background-color:#f2f2f2;
+	border: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	padding:12px 25px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#f2f2f2;
+	border: 1px solid #999999;
+	border-radius: 2px;
+	box-shadow: 0 1px 1px 0;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
